@@ -1,9 +1,3 @@
-.swamp/
-node_modules/
-dist/
-.DS_Store
-*.log
-
 # BEGIN swamp managed section - DO NOT EDIT
 
 # Runtime data (not needed in version control)
