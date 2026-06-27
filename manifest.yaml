@@ -1,0 +1,22 @@
+manifestVersion: 1
+name: "@meagerfindings/swamp-candidate-researcher"
+version: "2026.06.27.1"
+description: "Configurable candidate and judicial research models for Colorado and federal elections with shared neutral source-ingestion primitives."
+repository: https://github.com/meagerfindings/swamp-candidate-researcher
+
+paths:
+  base: manifest
+
+additionalFiles:
+  - README.md
+  - LICENSE
+  - examples/config.sample.yaml
+
+models:
+  - models/shared/candidate-research-core.ts
+  - models/shared/candidate-research-synthesizer.ts
+  - models/colorado/candidate-research-colorado.ts
+  - models/colorado/judge-research-colorado.ts
+  - models/federal/candidate-research-federal.ts
+
+platforms: []
